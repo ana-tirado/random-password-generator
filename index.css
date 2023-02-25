@@ -1,0 +1,92 @@
+/*PALETTE
+background: #2e4160, #1C1C1C
+text: white
+button: #38BDF8
+divs: #2F3E53
+      
+FONTS
+font-family: 'Karla', sans-serif;
+font-family: 'Inter', sans-serif;
+*/
+
+body {
+    margin: 0;
+}
+
+.container {
+    
+    background: linear-gradient(#2e4160, #1C1C1C);
+    background-size: cover;
+    width: 550px;
+    height: 550px;
+    margin: 20px auto;
+    font-family: 'Karla', sans-serif;
+    padding: 40px;
+    border-radius: 60px;
+}
+
+h1 {
+    font-weight: 800px;
+    font-size: 40px;
+    line-height: 40px;
+    color: white;
+    letter-spacing: -0.025em;
+    margin: 115px 0px 0px 52px;
+}
+
+#color-text {
+    color: #38BDF8
+}
+
+p {
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    line-height: 28px;
+    color: white;
+    margin: 10px 0px 0px 52px;
+}
+
+button {
+    font-family: 'Inter', sans-serif;
+    background-color: #38BDF8;
+    border: none;
+    color: white;
+    padding: 9px 17px;
+    border-radius: 6px;
+    box-shadow: 3px 3px 0px #1C1C1C;
+    margin: 51px 0 0 52px;
+}
+
+button:active {
+    transform: translateY(2px) translateX(2px);
+    box-shadow: none;
+  }
+
+.line {
+    border: 1px solid #2F3E53;
+    width: 446px;
+    margin: 35px auto;
+}
+
+.results {
+    display: flex;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    line-height: 38px;
+}
+
+#first-password, #second-password {
+    background-color: #2F3E53;
+    width: 211px;
+    height: 39px;
+    border-radius: 6px;
+}
+
+#first-password {
+    margin-right: 24px;
+}
+
+#copy-el {
+    font-size: 14px;
+}
